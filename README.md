@@ -57,7 +57,7 @@ function HomePage() {
     <>
       <h1>My Page</h1>
       <GptBanner
-        adUnitPath="/67551462/aryzap-home"
+        adUnitPath="/6499/example/banner"
         sizes={AD_SIZES.LEADERBOARD}
         slotId="leaderboard-1"
       />
@@ -105,7 +105,7 @@ Banner/display ad component. Handles slot definition, rendering, event callbacks
 import { GptBanner, AD_SIZES } from 'react-gpt-hooks';
 
 <GptBanner
-  adUnitPath="/67551462/aryzap-home"
+  adUnitPath="/6499/example/banner"
   sizes={AD_SIZES.MEDIUM_RECTANGLE}
   slotId="my-slot"
   collapseEmptyDiv
@@ -149,7 +149,7 @@ function MyPage() {
       <button onClick={() => setShowAd(true)}>Show Ad</button>
 
       <GptInterstitial
-        adUnitPath="/67551462/aryzap-interstitial"
+        adUnitPath="/6499/example/interstitial"
         sizes={[[320, 480], [768, 1024], [970, 250]]}
         isVisible={showAd}
         onClose={() => setShowAd(false)}
@@ -192,7 +192,7 @@ import { useGptSlot, AD_SIZES } from 'react-gpt-hooks';
 
 function CustomAd() {
   const { containerRef, slotId, isLoaded, isEmpty, refresh, destroy } = useGptSlot({
-    adUnitPath: '/67551462/aryzap-home',
+    adUnitPath: '/6499/example/banner',
     sizes: AD_SIZES.LEADERBOARD,
     slotId: 'custom-ad-1',
     targeting: { position: 'sidebar' },
@@ -331,14 +331,14 @@ export default function HomePage() {
       <h1>Welcome</h1>
 
       <GptBanner
-        adUnitPath="/67551462/aryzap-home"
+        adUnitPath="/6499/example/banner"
         sizes={AD_SIZES.LEADERBOARD}
         slotId="nextjs-leaderboard"
         collapseEmptyDiv
       />
 
       <GptBanner
-        adUnitPath="/67551462/aryzap-home"
+        adUnitPath="/6499/example/banner"
         sizes={AD_SIZES.MEDIUM_RECTANGLE}
         slotId="nextjs-med-rect"
       />
