@@ -19,6 +19,12 @@ jobs:
 
       - run: npm ci
 
+      - name: Sync version from Git tag
+        run: |
+          TAG=${GITHUB_REF#refs/tags/}
+          VERSION=${TAG#v}
+          npm version $VERSION --no-git-tag-version --allow-same-version
+
       - run: npm run build
 
       - run: npm test
