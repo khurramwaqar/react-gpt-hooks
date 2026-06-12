@@ -16,14 +16,14 @@ export default function App() {
 
         <h2>Leaderboard</h2>
         <GptBanner
-          adUnitPath="/67551462/aryzap-home"
+          adUnitPath="/6499/example/banner"
           sizes={[[728, 90], [970, 250]]}
           slotId="leaderboard-1"
         />
 
         <h2>Medium Rectangle</h2>
         <GptBanner
-          adUnitPath="/67551462/aryzap-home"
+          adUnitPath="/6499/example/banner"
           sizes={[[300, 250], [336, 280]]}
           slotId="med-rect-1"
         />
@@ -34,7 +34,7 @@ export default function App() {
         </button>
 
         <GptInterstitial
-          adUnitPath="/67551462/aryzap-interstitial"
+          adUnitPath="/6499/example/interstitial"
           sizes={[[320, 480], [768, 1024], [970, 250]]}
           isVisible={showInterstitial}
           onClose={() => setShowInterstitial(false)}

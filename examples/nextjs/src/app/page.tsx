@@ -9,7 +9,7 @@ export default function Home() {
 
       <h2>Leaderboard</h2>
       <GptBanner
-        adUnitPath="/67551462/aryzap-home"
+        adUnitPath="/6499/example/banner"
         sizes={AD_SIZES.LEADERBOARD}
         slotId="nextjs-leaderboard"
         collapseEmptyDiv
@@ -17,7 +17,7 @@ export default function Home() {
 
       <h2>Medium Rectangle</h2>
       <GptBanner
-        adUnitPath="/67551462/aryzap-home"
+        adUnitPath="/6499/example/banner"
         sizes={AD_SIZES.MEDIUM_RECTANGLE}
         slotId="nextjs-med-rect"
       />

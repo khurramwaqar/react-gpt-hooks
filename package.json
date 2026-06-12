@@ -21,8 +21,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsup",
+    "dev": "node api.js && tsup --watch",
+    "build": "node api.js && tsup",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
