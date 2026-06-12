@@ -9,4 +9,7 @@ export default defineConfig({
   clean: true,
   minify: true,
   external: ['react', 'react-dom'],
+  banner: {
+    js: "'use client';",
+  },
 });

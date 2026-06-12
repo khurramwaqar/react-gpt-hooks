@@ -1,6 +1,6 @@
 {
   "name": "react-gpt-hooks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Modern React hooks & components for Google Publisher Tag (GPT) ads. TypeScript-first, zero dependencies, SSR/Next.js ready.",
   "license": "MIT",
   "author": "",
